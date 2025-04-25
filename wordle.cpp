@@ -68,7 +68,6 @@ void wordleHelper(
         }
     }
     else {
-        temp[pos] = in[pos];
         wordleHelper(in, temp, floating, dict, res, pos + 1);
     }
 }
